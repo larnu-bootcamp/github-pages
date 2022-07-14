@@ -1,0 +1,34 @@
+
+* {
+  outline: 1px solid purple;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.player__img {
+  width: 100px;
+  align-self: center;
+}
+
+img {
+  width: 100%;
+}
+
+.player__actions {
+  display: flex;
+  flex-direction: column;
+}
